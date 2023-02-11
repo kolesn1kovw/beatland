@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section__voiting {
+  padding: 164px 0 200px 0;
+  background: #0F0F0F;
+  overflow: hidden;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+  .section__voiting {
+    padding: 140px 0 140px 0;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting {
+    padding: 100px 0 100px 0;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting {
+    padding: 80px 0 80px 0;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting {
+    padding: 80px 0 80px 0;
+  }
+}
+
+
+
+
+.section__voiting .voiting__category:first-child {
+  margin-bottom: 130px;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+  .section__voiting .voiting__category:first-child {
+    margin-bottom: 110px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__category:first-child {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__category:first-child {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__category:first-child {
+    margin-bottom: 80px;
+  }
+}
+
+
+
+
+._container {
+  max-width: 1160px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+  ._container {
+    max-width: 940px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  ._container {
+    max-width: 620px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  ._container {
+    max-width: 460px;
+  }
+}
+
+@media (max-width: 479px){
+  ._container {
+    max-width: 300px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__category-title {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  margin-bottom: 25px;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+  .section__voiting .voiting__category-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__category-title {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__category-title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__category-title {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant {
+  width: 560px;
+  height: 477px;
+  background: rgba(149, 149, 149, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+  .section__voiting .voiting__cards-participants .card-participant {
+    width: 465px;
+    height: 423px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant {
+    width: 305px;
+    height: 313px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant {
+    width: 225px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant {
+    width: 100%;
+    height: 285px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .card-participant__video {
+ position: relative;
+ width: 100%;
+ height: 315px;
+ overflow: hidden;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video {
+    height: 262px;
+   }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video {
+    height: 172px;
+   }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video {
+    height: 127px;
+   }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video {
+    height: 169px;
+   }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .card-participant__video iframe {
+  width: 100%;
+  height: 100%;
+ }
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);  
+  cursor: pointer;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .card-participant__video .video__play-btn img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info {
+  padding: 20px;
+  
+  color: #ffffff;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .participant__info {
+    padding: 10px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__country {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+
+  color: #A8A8A8;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__country {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__country {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__country {
+    font-size: 10px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__name {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 140%;
+  text-transform: uppercase;
+
+  margin-bottom: 28px;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__name {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__name {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__name {
+    font-size: 12px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  opacity: 0.15;
+
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes .votes__number {
+  font-size: 24px;
+  line-height: 110%;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes .votes__number {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes .votes__number {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes .votes__number {
+    font-size: 16px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes .votes__text {
+  font-size: 16px;
+  line-height: 110%;
+  font-weight: 400;
+
+  color: #A8A8A8;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes .votes__text {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes .votes__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .votes .votes__text {
+    font-size: 14px;
+  }
+}
+
+
+
+
+.section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .btn-voiting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 12px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+
+  max-height: 40px;
+  max-width: 163px;
+
+  padding: 15px 57px;
+ 
+  background: linear-gradient(90deg, #008891 0%, #2AD779 100%);
+  border-radius: 4px;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .btn-voiting {
+    max-height: 40px;
+    max-width: 122px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .btn-voiting {
+    max-height: 35px;
+    max-width: 81px;
+
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 479px){
+  .section__voiting .voiting__cards-participants .card-participant .participant__info .participant__info__voiting .btn-voiting {
+    max-height: 35px;
+    max-width: 81px;
+
+    padding: 10px 25px;
+  }
+}
